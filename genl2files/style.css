@@ -180,3 +180,12 @@ p code {
 .example-img {
   width: 100%;
 }
+
+.row-text {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.row-text > div {
+  display: grid;
+  place-items: center; 
+}
